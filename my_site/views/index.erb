@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>過去ガジェット研究所（仮）</title>
+<style>
+  body {
+    background-color: black;
+    color: #00ffcc;
+    font-family: "MS Gothic", "Osaka", sans-serif;
+  }
+
+  a {
+    color: #00ffcc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: yellow;
+  }
+
+  table {
+    border: 1px solid #00ffcc;
+    width: 80%;
+    margin: auto;
+    background-color: #111;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #00ffcc;
+  }
+
+  .banner {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .counter {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+</style>
+</head>
+
+<body>
+
+<marquee behavior="alternate" scrollamount="5" style="color: yellow;">
+  ◆ 過去ガジェット研究所（仮）へようこそ ◆
+</marquee>
+
+<img src="/img/future.gif" class="banner">
+
+<table>
+  <tr>
+    <td>
+      <h2>■ 研究所について</h2>
+      <p>ここは過去ガジェット研究所（仮）のホームページです。</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <h2>■ メニュー</h2>
+      <ul>
+        <li><a href="/">トップページ</a></li>
+        <li><a href="/about">研究所とは？</a></li>
+        <li><a href="/contact">連絡先</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div class="counter">
+  あなたは <span style="color: yellow;"><%= counter %></span> 人目の訪問者です。
+</div>
+
+</body>
+</html>
